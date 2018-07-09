@@ -1,0 +1,30 @@
+.content {
+   width:960px;
+    height:100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.content>div{
+    float:left;
+}
+.middle{
+    width:100%;
+    background: blue;
+    height:100px;
+ }
+.left{
+    background: red;
+    position: relative;
+    margin-left: -100%;
+    left:-100px;
+    width:100px;
+    height:100px;
+}
+.right{
+    background: yellow;
+    position: relative;
+    margin-left: -100px;
+    width:100px;
+    height:100px;
+}
