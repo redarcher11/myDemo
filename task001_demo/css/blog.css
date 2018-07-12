@@ -1,0 +1,280 @@
+* {
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+a:hover {
+    cursor:pointer;
+}
+a:visited {
+    color:white;
+}
+.clearfix:before,
+.clearfix:after {
+    content:" ";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.header {
+    background: #522a5c;
+}
+.w {
+    margin:0 auto;
+    width:960px;
+}
+.pos {
+    position: relative;
+}
+.logo {
+    float:left;
+    margin-top:25px;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    line-height:1.5;
+}
+.nav {
+   position:absolute;
+    right:0;
+    bottom:10px;
+}
+.nav li {
+    float:left;
+    margin-right:25px;
+}
+.nav li:last-child {
+    margin-right:0;
+}
+.nav li a{
+    color:white;
+    font-size: 20px;
+    line-height:1.5;
+}
+.nav li a:hover :visited {
+    color:white;
+}
+.git-link {
+    position:absolute;
+    right:-100px;
+    bottom:0;
+}
+.container {
+    background:#eeeeee;
+    padding-top:15px;s
+}
+.blog-left {
+    width:600px;
+    float:left;
+}
+.blog-content {
+    padding:20px;
+    background: white;
+    margin-bottom: 5px;
+}
+.blog-content h1 {
+    font-size:16px;
+    margin-bottom: 3px;
+}
+.blog-content h2 {
+    color:#666666;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.blog-content p {
+    height:240px;
+}
+.blog-content>span {
+    display: block;
+    text-align: right;
+}
+.side-tag {
+    width:60px;
+    position:absolute;
+    text-align: center;
+    left:-60px;
+    top:20px;
+}
+.side-tag span:first-child {
+    background:#522a5c;
+    color:white;
+    width:60px;
+    line-height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    height:40px;
+}
+.side-tag span:last-child {
+    background:#00458a;
+    color:white;
+    width:60px;
+    line-height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    height:40px;
+}
+.pagenum {
+    margin-bottom:30px;
+}
+.pagenum ul {
+    text-align: center;
+}
+.pagenum li {
+    display: inline-block;
+    background: white;
+}
+.pagenum li a {
+    padding:15px;
+    color:black;
+    line-height: 40px;
+}
+.blog-right {
+    width:330px;
+    float:right;
+}
+.search {
+    background: white;
+    width:330px;
+    height:150px;
+    margin-bottom:15px;
+    text-align: center;
+}
+.form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -120px;
+    margin-top: -25px;
+}
+.search-input {
+    border:1px solid #eeeeee;
+    padding:15px 0 15px 30px;
+    color:#eeeeee;
+    float:left;
+    box-sizing: border-box;
+    width:200px;
+    height:50px;
+    outline: none;
+    padding:2px 0 2px 50px;
+}
+.btn {
+    float:left;
+    width:40px;
+    height:50px;
+    background: #eeeeee;
+    color:white;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.nav-list {
+    margin-bottom: 15px;
+}
+.nav-list a {
+    height:50px;
+    width:330px;
+    display: inline-block;
+
+    margin-bottom: 2px;
+    border-left: 5px solid #00458a;
+    color:#e0e0e0;
+    background: white;
+    line-height: 50px;
+    font-size: 15px;
+    text-indent: 15px;
+}
+.nav-list a:hover,:visited {
+    border-left:5px solid #522a5c;
+}
+.date {
+    background: white;
+    height:200px;s
+}
+.y-m {
+    text-align: center;
+    width:250px;
+    margin:0 auto;
+    margin-bottom:5px;
+}
+
+.y-m a,span {
+    color:#522a5c;
+    font-size: 20px;
+}
+.date table {
+    border-collapse: collapse;
+    margin:0 auto;
+    width:250px;
+    margin-bottom: 20px;
+}
+.date table tr {
+    border-bottom: 1px solid #b5b5b5;
+}
+.date table th,td {
+    padding:8px;
+    margin:2px;
+    color:#b5b5b5;
+}
+.sel-date {
+    padding:5px;
+    background: #522a5c;
+    color:white;
+}
+.footer {
+    background: black;
+}
+.foot-bar {
+    margin:0 auto;
+}
+.foot-bar ul {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom:20px;
+    border-bottom:1px solid white;
+}
+.foot-bar li {
+    display:inline;
+    padding:50px;
+}
+.foot-link {
+    height:220px;
+}
+.foot-link ul {
+    display:inline-block;
+    width:24%;
+}
+.foot-link ul li:first-child {
+    margin-bottom: 30px;
+}
+.foot-link ul li :first-child a {
+    font-size:20px;
+}
+.foot-link ul li {
+    margin-bottom:5px;
+}
+.foot-info span {
+    display: block;
+    text-align: center;
+    color:white;
+}
+.foot-info a {
+    display: block;
+    text-align: center;
+}
